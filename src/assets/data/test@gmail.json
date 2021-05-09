@@ -1,0 +1,17 @@
+{
+    "address" : {
+      "city" : "Helsinki",
+      "state" : "Finland",
+      "street" : "Junailijankuja"
+    },
+    "email" : "test@gmail.com",
+    "extraCurr" : "I have various hobbies, one of them is practicing guitar lessons, I started when I was 15 years old and I try to practice anytime I get the chance, I also go jogging at the end of the day, at least twice a week, I watch many tv shows, for example \"Game of Thrones\", \"Grey's Anatomy\", \"This Is Us\", \"The Walking Dead\", \"The Handmaid's Tale\", \"Orange Is The New Black\", and many others . One of my favorite hobbies is taking german lessons, because I've always loved to learn new languages and I think that's very important, I speak spanish, english and basic german. I also enjoy going out with my friends to the cinema, to a coffee shop, to have dinner, to get some ice cream in order to catch up on what's new in our lives.",
+    "lastname" : "Uriarte",
+    "name" : "Juan",
+    "password" : 123456,
+    "personalProject" : "Here there should be a text explaining the personal project",
+    "softSkills" : [ "Communication", "Empathy", "Open-mindedness", "Confidence", "Critical thinking", "Creativity" ],
+    "teamProject" : "Here there should be a text explaining the team project",
+    "tecSkills" : [ "Good knowledge of Object-Oriented Design", "Knowledge of GIT or similar version/source control system", "Experience integrating with backend APIs", "UX and UI design principles", "Simple mobile app design with Ionic framework", "Simple App design and development" ],
+    "tlf" : "+34656787911"
+  }

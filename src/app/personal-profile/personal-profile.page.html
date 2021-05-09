@@ -1,0 +1,42 @@
+<!--
+Juan Uriarte Barragán 2008467
+01/05/2021
+personal-profile.page.html
+-->
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-item color="primary" lines=none>
+      <ion-button (click)="openMenu()"><ion-icon name="menu-outline"></ion-icon></ion-button>
+      <ion-title>Personal Profile</ion-title>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bg-class">
+  <ion-item>
+    <ion-label>Name:</ion-label>
+    <ion-textarea placeholder="Name" [(ngModel)]="name"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label>Lastname:</ion-label>
+    <ion-textarea placeholder="Lastname" [(ngModel)]="lastname"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label>Email:</ion-label>
+    <ion-textarea placeholder="Email" [(ngModel)]="email"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label>Telephone:</ion-label>
+    <ion-textarea placeholder="Tlf" [(ngModel)]="tlf"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label>Address:</ion-label>
+    <ion-textarea placeholder="Adress" [(ngModel)]="address"></ion-textarea>
+  </ion-item>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary" class="btn-wrapper">
+    <ion-button (click)="saveUser()" color="secondary" shape="round" class="footer-button">Save changes</ion-button>
+  </ion-toolbar>
+</ion-footer>

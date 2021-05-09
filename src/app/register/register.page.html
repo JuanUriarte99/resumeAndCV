@@ -1,0 +1,44 @@
+<!--
+Juan Uriarte Barragán 2008467
+01/05/2021
+register.page.html
+-->
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="bg-class">
+  <ion-grid class="adjustable-grid">
+    <ion-row class="email">
+      <ion-col class="ion-text-center">
+        <ion-item class="itememailpass">
+          <ion-label>
+            Email
+          </ion-label>
+          <ion-input placeholder="Email" type="text" [(ngModel)]="email"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="password">
+      <ion-col class="ion-text-center">
+        <ion-item class="itememailpass">
+          <ion-label>
+            Password
+          </ion-label>
+          <ion-input placeholder="Password" type="password" [(ngModel)]="password"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="button-container">
+      <ion-col class="ion-text-center">
+        <ion-button size="large" (click)="onRegister()">Register</ion-button>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <ion-button size="large" routerLink="/login">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+

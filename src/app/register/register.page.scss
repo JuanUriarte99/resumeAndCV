@@ -1,0 +1,28 @@
+.adjustable-grid{
+    height: 100%;
+  
+    .email{
+        position: relative;
+        top: 25%;
+        font-size: 25px;
+    }
+
+    .password{
+        position: relative;
+        top: 25%;
+        font-size: 25px;
+    }
+  
+    .button-container{
+        position: relative;
+        top: 30%;
+    }
+  }
+
+.bg-class{
+    --background: rgba(0, 0, 255, 0.025);
+}
+
+.itememailpass{
+    background: rgba(0, 0, 255, 0.025);
+}
